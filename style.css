@@ -1,3 +1,45 @@
+@font-face {
+    font-family: 'FontWithASyntaxHighlighter';
+    src: 
+      url('FontWithASyntaxHighlighter-Regular.woff2') 
+      format('woff2')
+    ;
+  }
 html{
     color-scheme: light dark;
+}
+body{
+    /* margin: 0; */
+    header{
+        text-align: center;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        section{
+            display: flex;
+            width: 50%;
+            flex-direction: column;
+            margin: 1rem;
+            details{
+                margin: 1rem 0;
+                img{
+                  max-width: 100%;
+                }
+            }
+        }
+    }
+   
+}
+  code {
+    font-family: "FontWithASyntaxHighlighter", monospace;
+  }
+
+footer{
+    margin-top: 2rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
