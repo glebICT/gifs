@@ -1,0 +1,55 @@
+{
+  "years": [
+    {
+      "year": "2025",
+      "title": "2025 — Halloween GIF animations",
+      "assignment": "Students of the 5th grade created spooky Halloween animations using GIMP. This year's projects are shown anonymously.",
+      "groups": [
+        {
+          "label": null,
+          "projects": [
+            { "images": ["2025/1.gif"] },
+            { "images": ["2025/2.gif"] },
+            { "images": ["2025/3.gif"] },
+            { "images": ["2025/4.gif"] },
+            { "images": ["2025/5.gif"] },
+            { "images": ["2025/6.gif"] }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "title": "2024 — Halloween GIF animations",
+      "assignment": "The assignment was to create a spooky rotating GIF animation using GIMP. Some students went further with other types of animation.",
+      "groups": [
+        {
+          "label": "Class 5a",
+          "projects": [
+            { "name": "Leonid", "images": ["2024/8.gif"] },
+            { "name": "Masha", "images": ["2024/masha.gif"] },
+            { "name": "Anna", "images": ["2024/kiti.gif"] },
+            { "name": "Arad", "images": ["2024/arad-5a.gif"] },
+            { "name": "Michael", "images": ["2024/michael-5a.gif"] },
+            { "name": "Danya", "images": ["2024/mask.gif"] },
+            { "name": "Vasilisa", "images": ["2024/vasilisa.gif"] },
+            { "name": "Amirbardia", "images": ["2024/anime.gif"] },
+            { "name": "George", "images": ["2024/george.gif"] }
+          ]
+        },
+        {
+          "label": "Class 5b",
+          "projects": [
+            { "name": "Elizaveta", "images": ["2024/spider_elisaveta.gif"] },
+            { "name": "Liza", "images": ["2024/dog.gif"] },
+            { "name": "Misha", "images": ["2024/misha-5g.gif"] },
+            { "name": "Piotr", "images": ["2024/piotr-5b-ghost.gif"] },
+            { "name": "Brennan", "images": ["2024/brennan/new.gif", "2024/brennan/fish.gif"] },
+            { "name": "Tamim", "images": ["2024/tamim/demon.gif"] },
+            { "name": "Varya", "images": ["2024/varya.gif"] }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,84 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  
-  <h1>Halloween animation project</h1>
-  <p>Assignment was to create spooky GIF rotating animation using GIMP, some student went further with other types of animation</p>
-  <main>
-  <section>
-    <h2>5a</h2>
-    <details>
-      <summary>Leonid</summary>
-      <img src="8.gif"/>
-    </details>
-    <details>
-      <summary>Masha</summary>
-      <img src="masha.gif"/>
-    </details>
-    <details>
-      <summary>Anna</summary>
-      <img src="kiti.gif"/>
-    </details>
-    <details>
-      <summary>Arad</summary>
-      <img src="arad-5a.gif"/>
-    </details>
-    <details>
-      <summary>Michael</summary>
-      <img src="michael-5a.gif"/>
-    </details>
-    <details>
-      <summary>Danya</summary>
-      <img src="mask.gif"/>
-    </details>
-    <details>
-      <summary>Vasilisa</summary>
-      <img src="vasilisa.gif"/>
-    </details>
-    <details>
-      <summary>Amirbardia</summary>
-      <img src="anime.gif"/>
-    </details>
-  </section>
-  <section>
-    <h2>5b</h2>
-    <details>
-      <summary>Elizaveta</summary>
-      <img src="spider_elisaveta.gif"/>
-    </details>
-    <details>
-      <summary>Liza</summary>
-      <img src="dog.gif"/>
-    </details>
-    <details>
-      <summary>Misha</summary>
-      <img src="misha-5g.gif"/>
-    </details>
-    <details>
-      <summary>Piotr</summary>
-      <img src="piotr-5b-ghost.gif"/>
-    </details>
-    <details>
-      <summary>Brennan</summary>
-      <img src="brennan/new.gif"/>
-      <img src="brennan/fish.gif"/>
-    </details>
-    <details>
-      <summary>Tamim</summary>
-      <img src="tamim/demon.gif"/>
-    </details>
-    <details>
-      <summary>Varya</summary>
-      <img src="varya.gif"/>
-    </details>
-  </section>
-  
-</main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halloween GIF animation projects</title>
+    <meta name="description" content="Halloween GIF animations created by 5th grade students using GIMP." />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Set theme before paint to avoid a flash of the wrong theme -->
+    <script>
+      (function () {
+        var saved = localStorage.getItem("theme");
+        if (saved === "light" || saved === "dark") {
+          document.documentElement.setAttribute("data-theme", saved);
+        }
+      })();
+    </script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <button
+        id="theme-toggle"
+        type="button"
+        class="theme-toggle"
+        aria-label="Toggle light and dark theme"
+        title="Toggle light/dark theme"
+      >
+        <span class="theme-toggle__icon" aria-hidden="true"></span>
+      </button>
+      <h1>Halloween GIF animation projects</h1>
+      <p class="subtitle">Spooky animations created by 5th grade students using GIMP 🎃</p>
+    </header>
+
+    <main>
+      <div id="calendar-container">
+        <p class="status">Loading projects…</p>
+      </div>
+    </main>
+
+    <footer>
+      <p>Made by 5th grade students 👻</p>
+    </footer>
+  </body>
 </html>
